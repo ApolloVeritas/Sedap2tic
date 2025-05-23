@@ -1,0 +1,38 @@
+[
+    {
+      "customerId": "CUST001",
+      "customerName": "Budi Santoso",
+      "email": "budi@example.com",
+      "phone": "081234567890",
+      "loyalty": "Gold"
+    },
+    {
+      "customerId": "CUST002",
+      "customerName": "Siti Aminah",
+      "email": "siti@example.com",
+      "phone": "081234567891",
+      "loyalty": "Silver"
+    },
+    {
+      "customerId": "CUST003",
+      "customerName": "Andi Wijaya",
+      "email": "andi@example.com",
+      "phone": "081234567892",
+      "loyalty": "Bronze"
+    },
+    {
+      "customerId": "CUST004",
+      "customerName": "Dewi Lestari",
+      "email": "dewi@example.com",
+      "phone": "081234567893",
+      "loyalty": "Gold"
+    },
+    {
+      "customerId": "CUST005",
+      "customerName": "Ahmad Rasyid",
+      "email": "ahmad@example.com",
+      "phone": "081234567894",
+      "loyalty": "Silver"
+    }
+  ]
+  

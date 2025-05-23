@@ -1,0 +1,87 @@
+{
+  "restaurant": {
+    "name": "Sedap",
+    "slogan": "Rasa yang tak terlupakan",
+    "logo": "/img/logo-sedap.png",
+    "established_year": 2010,
+    "description": "Sedap adalah restoran keluarga yang berkomitmen menyajikan makanan dengan cita rasa autentik dan bahan-bahan berkualitas tinggi. Kami percaya bahwa makanan enak bisa membawa kebahagiaan."
+  },
+  "vision_mission": {
+    "vision": "Menjadi restoran keluarga terbaik yang menyajikan pengalaman kuliner tak terlupakan dengan memadukan resep tradisional dan inovasi modern.",
+    "mission": [
+      "Menyajikan makanan berkualitas dengan harga terjangkau",
+      "Menjaga konsistensi rasa di setiap hidangan",
+      "Memberikan pelayanan terbaik kepada pelanggan",
+      "Mendukung petani dan produsen lokal"
+    ],
+    "tagline": "100% Bahan Alami"
+  },
+  "team": [
+    {
+      "id": 1,
+      "name": "Chef Andi",
+      "role": "Head Chef",
+      "bio": "Spesialis masakan tradisional dengan 15 tahun pengalaman",
+      "photo": "/public/img/chef2.jpg",
+      "specialty": "Masakan tradisional Indonesia"
+    },
+    {
+      "id": 2,
+      "name": "Ibu Siti",
+      "role": "Pastry Chef",
+      "bio": "Ahli membuat kue dan dessert tradisional",
+      "photo": "/public/img/chefcwek1.jpg",
+      "specialty": "Kue tradisional"
+    },
+    {
+      "id": 3,
+      "name": "Budi",
+      "role": "Service Manager",
+      "bio": "Memastikan pelayanan terbaik untuk pelanggan",
+      "photo": "/public/img/servicecust.jpg",
+      "specialty": "Customer service"
+    },
+    {
+      "id": 4,
+      "name": "Dewi",
+      "role": "Marketing",
+      "bio": "Menghubungkan Sedap dengan komunitas makanan",
+      "photo": "https://cdn-ilbfhln.nitrocdn.com/ESvQsnWHhSfmVVeMenxxtFzbxXSgvOhm/assets/images/optimized/rev-1bf8fd2/www.bryantstratton.edu/wp-content/uploads/2024/02/aos-marketing-degree-pic.jpg",
+      "specialty": "Digital marketing"
+    }
+  ],
+  "contact": {
+    "address": "Jl. Rasa Sedap No. 123, Kota Kuliner, Indonesia",
+    "opening_hours": {
+      "weekdays": "Senin - Jumat: 10.00 - 22.00 WIB",
+      "weekends": "Sabtu - Minggu: 09.00 - 23.00 WIB"
+    },
+    "phone": {
+      "office": "(021) 1234-5678",
+      "whatsapp": "0812-3456-7890"
+    },
+    "email": "info@sedap.com",
+    "social_media": {
+      "instagram": "@sedap.resto",
+      "facebook": "Sedap Restoran"
+    }
+  },
+  "facilities": [
+    {
+      "name": "Parkir Luas",
+      "icon": "parking"
+    },
+    {
+      "name": "AC",
+      "icon": "snowflake"
+    },
+    {
+      "name": "Wifi Gratis",
+      "icon": "wifi"
+    },
+    {
+      "name": "Area Merokok",
+      "icon": "smoking"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+[
+    
+  
+    {
+      "orderId": "ORD002",
+      "customerName": "Siti Aminah",
+      "status": "Completed",
+      "totalPrice": 180000,
+      "orderDate": "2025-04-28"
+    },
+    {
+      "orderId": "ORD003",
+      "customerName": "Andi Wijaya",
+      "status": "Cancelled",
+      "totalPrice": 0,
+      "orderDate": "2025-04-27"
+    },
+    {
+      "orderId": "ORD004",
+      "customerName": "Dewi Lestari",
+      "status": "Completed",
+      "totalPrice": 320000,
+      "orderDate": "2025-04-25"
+    },
+    {
+      "orderId": "ORD005",
+      "customerName": "Ahmad Rasyid",
+      "status": "Pending",
+      "totalPrice": 120000,
+      "orderDate": "2025-05-01"
+    }
+  ]
+  
