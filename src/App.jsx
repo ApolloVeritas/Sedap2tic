@@ -19,6 +19,7 @@ import AboutUs from "./components/CustomerComp/About";
 // import AuthLayout from "./layouts/AuthLayout";
 const Dashboard = React.lazy(()=> import("./pages/Dashboard"))
 const Customers = React.lazy(()=> import("./pages/Customer"))
+const Products = React.lazy(()=> import("./pages/Products"))
 const Orders = React.lazy(()=> import("./pages/Orders"))
 const NotFound = React.lazy(()=> import("./pages/NotFound")) 
 const MainLayout = React.lazy(()=> import("./layouts/MainLayout")) 
@@ -29,6 +30,7 @@ const AuthLayout = React.lazy(()=> import("./layouts/AuthLayout"))
 const CustomerLayout = React.lazy(()=>import("./layouts/LayoutCustomer/CustomerLayout"))
 const MainMenu = React.lazy(()=>import("./pages/CustomerPage/MainMenu"))
 const Member = React.lazy(()=>import("./pages/CustomerPage/MemberPage"))
+const ProductDetail = React.lazy(()=>import("./components/ProductDetail"))
 function App() {
   return (
     <Suspense fallback={<Loading/>}>
@@ -38,7 +40,8 @@ function App() {
             <Route path="/orders" element={<Orders />} />
             <Route path="/customers" element={<Customers />} />
             <Route path="/users" element={<Users />} />
-            
+            <Route path="products" element={<Products />} />
+            <Route path="/products/:id" element={<ProductDetail />} /> 
             <Route path="/404" element={<NotFound errorCode="404"/>}></Route>
             <Route path="/402" element={<NotFound errorCode="402"/>}></Route>
             </Route>
